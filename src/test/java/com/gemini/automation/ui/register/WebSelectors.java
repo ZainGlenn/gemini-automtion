@@ -2,7 +2,7 @@ package com.gemini.automation.ui.register;
 
 import org.openqa.selenium.By;
 
-public class WebSelectors {
+class WebSelectors {
     protected static final By todoHeaderClass = By.className("navbar-brand");
     protected static final By  registerHeaderXpath = By.xpath("//h1[text() = 'Register']");
     protected static final By emailAddressLabelXpath = By.xpath("//label[text() = 'Email address']");
